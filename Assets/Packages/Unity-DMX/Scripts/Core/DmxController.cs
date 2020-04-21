@@ -146,7 +146,7 @@ public class DmxController : MonoBehaviour
 
         public void Initialize()
         {
-            var startChannel = 0;
+            var startChannel = 1;
             foreach (var d in devices)
                 if (d != null)
                 {
